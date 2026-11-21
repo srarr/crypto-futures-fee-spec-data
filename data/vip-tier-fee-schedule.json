@@ -1,0 +1,143 @@
+{
+  "read_date": "2026-11-21",
+  "source_url": "https://www.bitunix.com/service/handling-fee",
+  "vip3_standard_thresholds_usdt": {
+    "spotVolume": 800000,
+    "futuresVolume": 8000000,
+    "balance": 25000
+  },
+  "vip0_to_vip3_reduction_pct": {
+    "futures_maker_pct": 30,
+    "futures_taker_pct": 33,
+    "spot_maker_pct": 56,
+    "spot_taker_pct": 40
+  },
+  "tiers": [
+    {
+      "level": 0,
+      "spotVolume": 0,
+      "futuresVolume": 0,
+      "balance": 0,
+      "spot": {
+        "maker": 0.08,
+        "taker": 0.1
+      },
+      "futures": {
+        "maker": 0.02,
+        "taker": 0.06
+      }
+    },
+    {
+      "level": 1,
+      "spotVolume": 100000,
+      "futuresVolume": 1000000,
+      "balance": 300,
+      "spot": {
+        "maker": 0.07,
+        "taker": 0.09
+      },
+      "futures": {
+        "maker": 0.02,
+        "taker": 0.05
+      }
+    },
+    {
+      "level": 2,
+      "spotVolume": 500000,
+      "futuresVolume": 5000000,
+      "balance": 5000,
+      "spot": {
+        "maker": 0.06,
+        "taker": 0.08
+      },
+      "futures": {
+        "maker": 0.016,
+        "taker": 0.05
+      }
+    },
+    {
+      "level": 3,
+      "spotVolume": 800000,
+      "futuresVolume": 8000000,
+      "balance": 25000,
+      "spot": {
+        "maker": 0.035,
+        "taker": 0.06
+      },
+      "futures": {
+        "maker": 0.014,
+        "taker": 0.04
+      }
+    },
+    {
+      "level": 4,
+      "spotVolume": 2000000,
+      "futuresVolume": 20000000,
+      "balance": 140000,
+      "spot": {
+        "maker": 0.02,
+        "taker": 0.05
+      },
+      "futures": {
+        "maker": 0.012,
+        "taker": 0.0375
+      }
+    },
+    {
+      "level": 5,
+      "spotVolume": 4000000,
+      "futuresVolume": 50000000,
+      "balance": 700000,
+      "spot": {
+        "maker": 0.015,
+        "taker": 0.045
+      },
+      "futures": {
+        "maker": 0.01,
+        "taker": 0.035
+      }
+    },
+    {
+      "level": 6,
+      "spotVolume": 6000000,
+      "futuresVolume": 100000000,
+      "balance": 1400000,
+      "spot": {
+        "maker": 0.0125,
+        "taker": 0.0375
+      },
+      "futures": {
+        "maker": 0.008,
+        "taker": 0.0315
+      }
+    },
+    {
+      "level": 7,
+      "spotVolume": 8000000,
+      "futuresVolume": 200000000,
+      "balance": 2400000,
+      "spot": {
+        "maker": 0.01,
+        "taker": 0.0325
+      },
+      "futures": {
+        "maker": 0.006,
+        "taker": 0.03
+      }
+    },
+    {
+      "level": 8,
+      "spotVolume": 100000000,
+      "futuresVolume": 500000000,
+      "balance": null,
+      "spot": {
+        "maker": 0.0048,
+        "taker": 0.018
+      },
+      "futures": {
+        "maker": 0,
+        "taker": 0.026
+      }
+    }
+  ]
+}

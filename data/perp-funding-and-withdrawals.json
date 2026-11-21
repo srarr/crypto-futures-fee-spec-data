@@ -1,0 +1,92 @@
+{
+  "read_date": "2026-11-21",
+  "pairs": [
+    {
+      "symbol": "BTCUSDT",
+      "maxLeverage": 200,
+      "minQty": 0.0001
+    },
+    {
+      "symbol": "ETHUSDT",
+      "maxLeverage": 200,
+      "minQty": 0.003
+    },
+    {
+      "symbol": "SOLUSDT",
+      "maxLeverage": 100,
+      "minQty": 0.1
+    },
+    {
+      "symbol": "XRPUSDT",
+      "maxLeverage": 100,
+      "minQty": 2
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "maxLeverage": 75,
+      "minQty": 53
+    }
+  ],
+  "withdrawals": [
+    {
+      "coin": "USDT",
+      "network": "Tron (TRC-20)",
+      "min": 2,
+      "fee": 1
+    },
+    {
+      "coin": "USDT",
+      "network": "Ethereum (ERC-20)",
+      "min": 2,
+      "fee": 2
+    },
+    {
+      "coin": "USDT",
+      "network": "BSC (BEP-20)",
+      "min": 2,
+      "fee": 0.5
+    },
+    {
+      "coin": "USDT",
+      "network": "Solana",
+      "min": 2,
+      "fee": 1
+    },
+    {
+      "coin": "USDC",
+      "network": "BSC (BEP-20)",
+      "min": 1,
+      "fee": 0.5
+    },
+    {
+      "coin": "BTC",
+      "network": "Bitcoin",
+      "min": 0.0001,
+      "fee": 0.000035
+    },
+    {
+      "coin": "ETH",
+      "network": "Ethereum (ERC-20)",
+      "min": 0.002,
+      "fee": 0.00175
+    },
+    {
+      "coin": "SOL",
+      "network": "Solana",
+      "min": 0.1,
+      "fee": 0.008
+    },
+    {
+      "coin": "XRP",
+      "network": "Ripple (XRP)",
+      "min": 20,
+      "fee": 0.2
+    },
+    {
+      "coin": "DOGE",
+      "network": "Dogecoin",
+      "min": 140,
+      "fee": 4
+    }
+  ]
+}
